@@ -4,6 +4,6 @@ namespace RefitSandbox;
 
 public interface ICatFactsClient
 {
-    [Get("/facts")]
-    Task<ApiResponse<List<CatFact>>> GetTheFactsAsync(CancellationToken cancellationToken);
+  [Get("/facts")]
+  Task<ApiResponse<List<CatFact>>> GetTheFactsAsync(CancellationToken cancellationToken);
 }
